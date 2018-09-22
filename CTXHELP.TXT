@@ -1,0 +1,77 @@
+.topic IDH_SELF
+Snap to a window's old position.
+
+.topic IDH_OTHERS
+Snap to all other windows.
+
+.topic IDH_DESKTOP
+Snap to the edges of the screen(s).
+
+.topic IDH_VCENTER
+Snap to the vertical center of the sceen(s).
+
+.topic IDH_HCENTER
+Snap to the horizontal center of the screen(s).
+
+.topic IDH_ENABLED
+Enables window snapping.
+
+.topic IDH_PLAYSOUNDS
+Plays sounds when windows snap and unsnap.  (May become annoying)
+
+.topic IDH_UNSNAP_FILE
+ .wav file that is played when a window un-snaps.
+
+.topic IDH_BROWSE_UNSNAP
+Click to select a new .wav file for the un-snapping sound
+
+.topic IDH_SNAP_FILE
+ .wav file that is played when a window snaps.
+
+.topic IDH_BROWSE_SNAP
+Click to select a new .wav file for the snapping sound
+
+.topic IDH_TOGGLEKEYS
+Lists keys you can use to temporarily disable window snapping.
+
+.topic IDH_SCREEN_THRESH
+Adjusts how close a window must be to the edge of the screen before it snaps.
+
+.topic IDH_WIN_THRESH
+Adjusts how close two windows must be before they snap.
+
+.topic IDH_SNAPTOL
+Choose what windows you can snap to. 
+
+.topic IDH_GENERALL
+General settings
+
+.topic IDH_SOUNDS
+Sound settings
+
+.topic IDH_SNAPMDI
+Makes other applications' MDI windows snap.
+
+.topic IDH_QUIETFAST
+Don't play snap sounds when moving or sizing quickly across the screen.
+
+.topic IDH_INSIDES
+Don't snap windows to the inside edges of other windows.
+
+.topic IDH_INVTOGGLE
+Inverts the toggle key.            (press to enable snapping)
+
+.topic IDH_ADVL
+Advanced settings
+
+.topic IDH_PLAY
+Play the selected sound.
+
+.topic IDH_CROPTOP
+Used to fix XP styles in which the windows are taller than they appear.
+
+.topic IDH_HIDEICON
+Hides the system tray icon.  Run allSnap again to un-hide the icon.
+
+.topic IDH_KEPT
+Prevents windows from moving off the sides of the screen.

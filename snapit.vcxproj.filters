@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c75057d0-b133-4890-aff1-e9e1b1a7c468}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{950a1fa7-5565-45b5-ab92-bf443905559d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a3196f62-1bb2-496a-8d3b-5e65a68afe2d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sides.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_App.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_grid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_registry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_sounds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_taskbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_tips.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auto_lineup\autolineup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmnHdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mydebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_lineup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_mywm_msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_taskbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_tips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource.hm">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="about.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="allSnap.iss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="allSnapDebug.iss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="arrow.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursor2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="help.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="introducing.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="knownproblems.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="performance.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="running.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="settings.html">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="desktop_.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="disabled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="disabled3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="disabled5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enabled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enabled3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enabled5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico00009.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Icon5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="others.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="others_d.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="self_dis.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snapit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snapitold.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snapto.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snaptoA.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snaptoW.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="x-click-but21 copy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="xpenable.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="xptray_disabled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="xptray_enabled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="snapit.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="allSnap.exe.manifest" />
+  </ItemGroup>
+</Project>

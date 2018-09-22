@@ -1,0 +1,12 @@
+#ifndef SNAP_MYWM_MSG_INCLUDE
+#define SNAP_MYWM_MSG_INCLUDE
+
+#define MYWM_NOTIFYICON			(WM_USER + 1)
+#define MYWM_SNAPSOUND			(WM_USER + 2)
+#define MYWM_UNSNAPSOUND		(WM_USER + 3)
+#define MYWM_CLOSETHREAD		(WM_USER + 4)
+#define MYWM_UNHIDEICON			(WM_USER + 5)
+#define MYWM_IS_CLASS_IN_LIST	(WM_USER + 6)
+#define MYWM_DEBUG1				(WM_USER + 10)
+
+#endif

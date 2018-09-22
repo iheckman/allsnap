@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=allSnap.chm
+Contents file=Table of Contents.hhc
+Default topic=introducing.html
+Display compile progress=Yes
+Language=0x1009 English (Canada)
+Title=allSnap Help
+
+
+[FILES]
+settings.html
+introducing.html
+running.html
+about.html
+knownproblems.html
+
+[MAP]
+Compatibility=1.1 or later
+
+[TEXT POPUPS]
+
+
+
+[INFOTYPES]
+

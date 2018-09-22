@@ -1,0 +1,173 @@
+/* Cascading Style Sheet for HTML Help Workshop */
+
+body		{ 
+			font-size: 75%; 
+			line-height: 125%;
+			background: white;
+			font-family: Verdana, Arial, Helvetica,  }
+			
+
+a:link		{ color: #0000FF; } 
+
+a:active	{ color: #FF33CC; }
+
+a:visited 	{  color: #800080; }
+
+a:hover		{color: #800080; }
+
+a:sidebar	{color: #339900; }
+
+h1		{ font-family: Helvetica;
+		font-size: 175%; 
+		margin-bottom: .5em;
+		line-height: 125%; }
+
+h2		{ font-size: 115%;  
+		margin-top: 1.5em;
+		margin-bottom: .5em;  }
+
+h3		{ font-size: 100%; 
+		margin-top: 1.2em;  
+		margin-bottom: .5em;  }
+
+h4		{ font-size: 100%;
+        	color: darkmagenta;
+		margin-top: 1.2em;  
+		margin-bottom: .5em;  }
+
+p		{ margin-top:6pt; margin-bottom: 6pt;	}
+
+p.margin {
+	margin-left: 57pt;
+	margin-top: -47pt; }
+	
+p.margin2 {
+	margin-left: 57pt; } 
+	
+li p		{ margin-top: .6em;
+		margin-bottom: 0em;  }
+		
+big		{  font-weight: bold; 
+		font-size: 105%;  }
+		
+ol		{margin-top: .5em; 
+		margin-bottom: 0em }	
+	
+ul		{margin-top: .6em; 	
+		margin-bottom: 0em;
+		margin-left: 2.75em;  }	
+
+ol ul		{  list-style: disc; margin-top: 2em;  }
+
+li		{padding-bottom: .3em;
+		margin-left: -1.25em;  }
+
+dl ul		{ margin-top: 2em;  
+		margin-bottom: 0em;  }	/*list item inside a def/term*/
+
+dl		{ margin-top: -1em;  }
+
+ol dl	{ margin-top: -1.5em;
+		 margin-left: 0em;  }		/*term/def list inside a numbered list*/
+
+ol dl dl	{  margin-top: 0em;
+		margin-left: .2em;  }		/*term/def list inside a term/def list*/
+
+dd		{ margin-bottom: 0em;	/*not currently working*/
+		margin-left: 1.5em;  }
+
+dt		{  padding-top: 2em;
+		font-weight: bold; 
+		margin-left: 1.5em;  }
+
+code	{font-family: Courier; }
+
+pre		{ margin-top: 0em;
+		margin-bottom: 1.5em; 
+		font-family: Courier;
+		}
+
+ TABLE { 
+     Background-color : white;
+     font-size : 10.0pt;
+     color : black;
+     margin-top : 6.0pt;
+     width:200px:
+     margin-bottom : auto;}
+ TH { 
+     text-align : left;
+     color : black;
+     Background-color : #DDDDDD;
+     padding : 2px;
+    }
+ TD { 
+     color : black;
+     Background-color : #EEEEEE;
+     vertical-align : top;
+     padding : 2px;
+     padding-right:4px;
+    }
+
+/* Only use this for sidebars that ARE in a list */
+DIV.sidebartext {
+	position: relative;
+	left: -22px;
+	height: 72px;
+	width: 300px;
+	margin-top: .6em;
+	margin-right: 3em;
+	margin-left: 0;
+	margin-bottom: .6em;
+	padding-top: .75em;
+	padding-right: 6px;
+	padding-left: .75em;
+	padding-bottom: .75em;
+	cursor: hand;
+	border-left: 4pt solid #339900;
+	background-color: #F0F0F0; }
+
+/* Only use this for sidebars that are NOT in a list */
+DIV.sidebartbl {
+	height: 72px;
+	width: 300px;
+	margin-top: .6em;
+	margin-right: 3em;
+	margin-left: 0;
+	margin-bottom: .6em;
+	padding-top: .75em;
+	padding-right: 8em;
+	padding-left: .75em;
+	padding-bottom: .75em;
+	cursor: hand;
+	border-left: 4pt solid #339900;
+	background-color: #F0F0F0; }
+	
+a:visited.sidebar: {
+	color: #339900;
+	text-decoration: none; }
+	
+a:hover.sidebar: {
+	text-decoration: underline; }
+
+.banner {
+	padding:3px;
+	padding-left:50px;
+	margin:0px;
+	margin-bottom:10px;
+	background: #6699CC;
+	height:25px;
+	}
+.all	{font-size:20px; color: #666666;font-family: Impact,Verdana, Arial, Helvetica,
+	 }
+.snap	{font-size:20px; color: #eeeeee;font-family: Impact,Verdana, Arial, Helvetica,}	 
+.newbody {margin:20px;
+	 padding:0px;}
+	 
+.note {font-size:80%;
+	font-weight:normal;
+	font-style:italic;}
+
+.date {font-size:80%;
+	margin-left:200px;
+	font-weight:normal;
+	font-style:italic;}

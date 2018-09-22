@@ -1,0 +1,55 @@
+BOOL WINAPI DllMain(HINSTANCE hinstDll, DWORD fdwReason, PVOID fImplLoad){
+
+	switch(fdwReason){
+		case DLL_PROCESS_ATTACH:
+			//DLL is attaching to the address space of the current process
+			g_hinstDll = hinstDll;
+			break;
+	}
+	return(TRUE);
+}
+
+BOOL WINAPI SnapHookAll(){
+	g_hhook = SetWindowsHookEx(WH_GETMESSAGE,GetMsgProc,g_hinstDll,0);
+	return (g_hhook!= NULL);
+}
+
+LRESULT WINAPI GetMsgProc(int nCode, WPARAM wParam, LPARAM lParam){
+	LPMSG pmsg = (LPMSG)lParam;
+	HWND edit;
+	static BOOL fFirstTime = TRUE;
+
+ 	if (fFirstTime){
+ 		fFirstTime = FALSE;
+		//dll just got injected
+		snapper_UpdateWorkArea();
+	}
+
+    if (nCode < 0) // do not process message 
+        return CallNextHookEx(g_hhook, nCode, 
+            wParam, lParam); 
+
+    switch (nCode) 
+    {
+		case HC_ACTION:
+			switch(pmsg->message){
+			//	case WM_MOUSEMOVE:
+			//		MessageBeep(-1);  This one will work
+				case WM_ENTERSIZEMOVE:
+					snapper_OnEnterSizeMove();
+					break;
+				case WM_MOVING:
+					snapper_OnMoving((LPRECT)(pmsg->lParam));
+					break;
+				case WM_SIZING:
+					snapper_OnSizing(wParam,(LPRECT)(pmsg->lParam));
+					break;
+				case WM_SETTINGCHANGE:
+					snapper_UpdateWorkArea();
+					break;
+						
+			}
+	}
+
+	return(CallNextHookEx(g_hhook, nCode, wParam, lParam));
+}

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{466d67e1-059e-4baa-bf82-be7337c31ae5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{55a0c0ba-2528-42bd-9476-4f16854d5c55}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{352999b8-ba63-4113-adc7-6c7a3d24e03a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sides.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_CenterSize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_CornerInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_Crop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_EqualSize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_InTests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_KeepToScreen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_MouseSpeed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_MultiSz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_ResultStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_testers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_TrackResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snap_WinRects.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MYDEBUG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_CenterSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_CornerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_Crop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_EqualSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_InTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_KeepToScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_MouseSpeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_MultiSz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_results.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_ResultStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_testers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_TrackResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snap_WinRects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="snap_lib1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,600 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 246, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About allSnap"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,8,50,14
+    LTEXT           "allSnap Version 1.5.0 Beta\nIvan Heckman\nCopyright (C) 2002 - 2010",IDC_STATIC,47,8,133,27
+    ICON            IDI_SNAPIT,IDC_STATIC,12,8,20,20
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,12,72,222,1
+    LTEXT           "e-mail:",IDC_STATIC,47,50,21,9
+    LTEXT           "ivanheckman@hotmail.com",IDC_EMAIL,79,50,88,8,SS_NOTIFY
+END
+
+168 DIALOGEX 0, 0, 212, 188
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDI_SNAPIT,IDC_STATIC,12,20,20,20
+    CONTROL         "Snap to windows at",IDC_SNAPATL,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,44,22,63,8,0,HIDC_SNAPATL
+    EDITTEXT        IDC_WIN_THRESH,109,20,23,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "",IDC_WIN_THRESH_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,122,21,10,11,0,HIDC_WIN_THRESH_SPIN
+    LTEXT           "pixels",IDC_PIXELSL,135,23,23,8,SS_NOTIFY,0,HIDC_PIXELSL
+    CONTROL         "Snap to desktop at",IDC_SNAPATL2,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,44,39,61,8,0,HIDC_SNAPATL2
+    EDITTEXT        IDC_SCREEN_THRESH,109,37,23,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "",IDC_SCREEN_THRESH_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,122,39,10,11,0,HIDC_SCREEN_THRESH_SPIN
+    LTEXT           "pixels",IDC_PIXELSL2,135,39,23,8,SS_NOTIFY,0,HIDC_PIXELSL2
+    LTEXT           "Toggle Key:",IDC_TOGGLEKEYL,44,59,39,8,SS_NOTIFY,0,HIDC_TOGGLEKEYL
+    COMBOBOX        IDC_TOGGLEKEYS,93,57,46,62,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,0,HIDC_TOGGLEKEYS
+    GROUPBOX        "Snap To",IDC_STATIC,7,90,198,73,BS_NOTIFY,0,HIDC_STATIC
+    ICON            IDI_SNAP_TOS,IDC_STATIC,12,103,20,20
+    LTEXT           "Choose which items to snap to:",IDC_CHOSEL,44,102,151,9,SS_NOTIFY,0,HIDC_CHOSEL
+    CONTROL         "Desktop",IDC_DESKTOP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,117,72,10,0,HIDC_DESKTOP
+    CONTROL         "Other windows",IDC_OTHERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,129,72,10,0,HIDC_OTHERS
+    CONTROL         "Old position",IDC_SELF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,142,72,10,0,HIDC_SELF
+    CONTROL         "Vertical Center",IDC_VCENTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,118,62,10
+    CONTROL         "Horizontal Center",IDC_HCENTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,130,70,10
+    CONTROL         "Enable Snapping",IDC_ENABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,171,107,10,0,HIDC_ENABLED
+    GROUPBOX        "General",IDC_GENERALL,7,7,198,76,BS_NOTIFY,0,HIDC_GENERALL
+END
+
+169 DIALOGEX 0, 0, 212, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SNAP_FILE,44,31,88,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP,0,HIDC_SNAP_FILE
+    PUSHBUTTON      "Browse...",IDC_BROWSE_SNAP,155,30,44,14,0,0,HIDC_BROWSE_SNAP
+    PUSHBUTTON      ">",IDC_PLAY_SNAP,136,30,16,14
+    EDITTEXT        IDC_UNSNAP_FILE,44,65,88,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP,0,HIDC_UNSNAP_FILE
+    PUSHBUTTON      "Browse...",IDC_BROWSE_UNSNAP,155,64,44,14,0,0,HIDC_BROWSE_UNSNAP
+    PUSHBUTTON      ">",IDC_PLAY_UNSNAP,136,64,16,14
+    CONTROL         "&Play Sounds",IDC_PLAYSOUNDS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,105,55,10,0,HIDC_PLAYSOUNDS
+    GROUPBOX        "Snap Sounds",IDC_SOUNDSL,7,7,198,113,BS_NOTIFY
+    ICON            IDI_SPEAKER,IDC_STATIC,16,19,20,20
+    LTEXT           "Snap sound file:",IDC_SNAPFILEL,44,22,52,8,SS_NOTIFY,WS_EX_TRANSPARENT,HIDC_SNAPFILEL
+    LTEXT           "Unsnap sound file:",IDC_UNSNAPFILEL,44,56,88,8,SS_NOTIFY,WS_EX_TRANSPARENT,HIDC_UNSNAPFILEL
+END
+
+211 DIALOGEX 0, 0, 212, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Snap MDI windows",IDC_SNAPMDI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,34,77,9,0,HIDC_SNAPMDI
+    CONTROL         "Invert toggle key",IDC_INVTOGGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,47,69,10,0,HIDC_INVTOGGLE
+    CONTROL         "Don't snap to inside edges",IDC_INSIDES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,60,99,10,0,HIDC_INSIDES
+    CONTROL         "Hide icon  (run again to unhide)",IDC_HIDEICON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,73,115,10,0,HIDC_HIDEICON
+    CONTROL         "Crop top of windows by",IDC_CROPTOPC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,86,86,11,0,HIDC_CROPTOPC
+    EDITTEXT        IDC_CROPTOP,120,86,10,12,ES_RIGHT | ES_NUMBER,0,HIDC_CROPTOP
+    LTEXT           "pixels",IDC_CROPTOPL,132,88,18,10,SS_NOTIFY,0,HIDC_CROPTOPL
+    CONTROL         "Constrain windows to the screen",IDC_KEPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,100,118,10,0,HIDC_KEPT
+    GROUPBOX        "Advanced Settings",IDC_ADVL,7,7,198,129
+    CONTROL         "Ignore window clipping regions ",IDC_CROP_RGN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,113,115,10,0,HIDC_CROP_RGN
+    CONTROL         "Desktop icons 'Align to Grid'",IDC_AUTOLINEUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,32,22,104,10
+END
+
+IDD_DEBUG DIALOGEX 0, 0, 254, 268
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "allSnap: Debug console"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_MSGLIST,7,7,240,239,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Save Log",IDC_SAVE,141,252,50,14
+    PUSHBUTTON      "Clear",IDC_CLEAR,197,252,50,14
+END
+
+IDD_ABOUT_DEBUG DIALOGEX 0, 0, 246, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About allSnap"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,8,50,14
+    LTEXT           "allSnap Version 1.5.0 Beta\nIvan Heckman\nCopyright (C) 2002-2010",IDC_STATIC,47,8,118,27
+    ICON            IDI_SNAPIT,IDC_STATIC,12,8,20,20
+    LTEXT           " ",IDC_STATIC,47,79,100,20
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,12,72,222,1
+    LTEXT           "e-mail:",IDC_STATIC,47,50,21,9
+    LTEXT           "ivanheckman@hotmail.com",IDC_EMAIL,79,50,88,8,SS_NOTIFY
+END
+
+IDD_GRID DIALOGEX 0, 0, 212, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,7,198,66
+    GROUPBOX        "",IDC_STATIC,7,79,198,66
+    CONTROL         "Horizontal",IDC_CHECK_HORIZONTAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,7,47,10
+    CONTROL         "",IDC_RADIO_H_EVEN,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,22,16,8
+    CONTROL         "",IDC_RADIO_H_PIXELS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,37,16,8
+    CONTROL         "",IDC_RADIO_H_SINGLE,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,52,16,8
+    EDITTEXT        IDC_H_NUM_EVEN,32,21,34,12,ES_AUTOHSCROLL | WS_GROUP,WS_EX_RIGHT
+    EDITTEXT        IDC_H_PIXELS_BTWN,32,36,34,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        IDC_H_PIXELS_FROM_TOP,32,51,34,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    CONTROL         "Vertical",IDC_CHECK_VERTICAL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,79,39,10
+    CONTROL         "",IDC_RADIO_V_EVEN,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,94,16,8
+    CONTROL         "",IDC_RADIO_V_PIXELS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,109,16,8
+    CONTROL         "",IDC_RADIO_V_SINGLE,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,124,16,8
+    EDITTEXT        IDC_V_NUM_EVEN,32,93,34,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        IDC_V_PIXELS_BTWN,32,108,34,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    EDITTEXT        IDC_V_PIXELS_FROM_LEFT,32,123,34,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    LTEXT           "lines evenly spaced",IDC_STATIC,71,23,63,8
+    LTEXT           "pixels between lines",IDC_STATIC,71,38,64,8
+    LTEXT           "pixels from top (single)",IDC_STATIC,71,53,70,8
+    LTEXT           "lines evenly spaced",IDC_STATIC,71,95,63,8
+    LTEXT           "pixels between lines",IDC_STATIC,71,110,64,8
+    LTEXT           "pixels from left (single)",IDC_STATIC,71,125,69,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+#if defined(APSTUDIO_INVOKED) || !defined(_DEBUG)
+IDR_SYSMENU MENU
+BEGIN
+    POPUP "notify"
+    BEGIN
+        MENUITEM "&About allSnap",              IDM_ABOUT
+        MENUITEM "&Help",                       9
+        MENUITEM "&Settings...",                IDM_SETTINGS
+        MENUITEM "&Enable Window Snapping",     ID_ENABLEWINDOWSNAPPING, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+#endif
+
+IDR_WHAT MENU
+BEGIN
+    POPUP "notify"
+    BEGIN
+        MENUITEM "What's This?",                IDM_WHAT
+    END
+END
+
+IDR_SYSMENU_DEBUG MENU
+BEGIN
+    POPUP "notify"
+    BEGIN
+        MENUITEM "&About allSnap",              IDM_ABOUT
+        MENUITEM "&Help",                       9
+        MENUITEM "&Settings...",                IDM_SETTINGS
+        MENUITEM "&Enable Window Snapping",     ID_ENABLEWINDOWSNAPPING, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Open Debug console",         IDM_DEBUG
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+
+IDR_WHAT3 MENU
+BEGIN
+    POPUP "notify"
+    BEGIN
+        MENUITEM "What's This?",                IDM_WHAT
+    END
+END
+
+IDR_COPY MENU
+BEGIN
+    POPUP "nothin"
+    BEGIN
+        MENUITEM "&Copy",                       ID_NOTHIN_COPY
+    END
+END
+
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+IDR_SYSMENU$(_DEBUG) MENU
+#else
+IDR_SYSMENU MENU
+#endif
+BEGIN
+    POPUP "notify"
+    BEGIN
+        MENUITEM "&About allSnap",              IDM_ABOUT
+        MENUITEM "&Help",                       9
+        MENUITEM "&Settings...",                IDM_SETTINGS
+        MENUITEM "&Enable Window Snapping",     ID_ENABLEWINDOWSNAPPING, CHECKED
+        MENUITEM "&Open Debug console",         IDM_DEBUG
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_SNAPIT ACCELERATORS
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "C",            IDM_COPY,               VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,2,0
+ PRODUCTVERSION 1,4,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "100904b0"
+        BEGIN
+            VALUE "Comments", "check http://allsnap.org for updates"
+            VALUE "CompanyName", "Ivan Heckman"
+            VALUE "FileDescription", "allSnap: makes all windows snap together"
+            VALUE "FileVersion", "1, 5, 0, 0"
+            VALUE "InternalName", "allSnap"
+            VALUE "LegalCopyright", "Copyright © 2002-2008"
+            VALUE "OriginalFilename", "allSnap.exe"
+            VALUE "ProductName", "allSnap"
+            VALUE "ProductVersion", "1, 5, 0, 0"
+            VALUE "SpecialBuild", "[ini version]"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x1009, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+#if defined(APSTUDIO_INVOKED) || !defined(_WIN64)
+IDI_SNAPIT              ICON                    "snapit.ico"
+#endif
+IDI_ARROWSLOGO          ICON                    "ico00002.ico"
+#if defined(APSTUDIO_INVOKED) || \
+    !(defined(JUST_MOVING) || defined(_WIN64))
+IDI_ENABLED             ICON                    "icon2.ico"
+#endif
+IDI_SNAP_TOS            ICON                    "ico00003.ico"
+#if defined(APSTUDIO_INVOKED) || !defined(_WIN64)
+IDI_DISABLED            ICON                    "ico00001.ico"
+#endif
+IDI_SPEAKER             ICON                    "icon1.ico"
+IDI_PLAY                ICON                    "icon5.ico"
+IDI_STOP                ICON                    "ico00004.ico"
+IDI_XPDISABLED          ICON                    "xptray_disabled.ico"
+#if defined(APSTUDIO_INVOKED) || \
+    !(defined(JUST_MOVING) || defined(_WIN64))
+IDI_XPENABLED           ICON                    "xptray_enabled.ico"
+#endif
+#if defined(APSTUDIO_INVOKED) || defined(JUST_MOVING)
+#if defined(APSTUDIO_INVOKED)
+IDI_XPENABLED$(JUST_MOVING) ICON                    "xpenable.ico"
+#else
+IDI_XPENABLED           ICON                    "xpenable.ico"
+#endif
+#endif
+#if defined(APSTUDIO_INVOKED) || defined(JUST_MOVING)
+#if defined(APSTUDIO_INVOKED)
+IDI_ENABLED$(JUST_MOVING) ICON                    "enabled.ico"
+#else
+IDI_ENABLED             ICON                    "enabled.ico"
+#endif
+#endif
+IDI_XPENABLED1          ICON                    "ico00005.ico"
+#if defined(APSTUDIO_INVOKED) || defined(_WIN64)
+#if defined(APSTUDIO_INVOKED)
+IDI_XPENABLED$(_WIN64)  ICON                    "ico00007.ico"
+#else
+IDI_XPENABLED           ICON                    "ico00007.ico"
+#endif
+#endif
+IDI_ICON2               ICON                    "ico00006.ico"
+#if defined(APSTUDIO_INVOKED) || defined(_WIN64)
+#if defined(APSTUDIO_INVOKED)
+IDI_SNAPIT$(_WIN64)     ICON                    "ico00008.ico"
+#else
+IDI_SNAPIT              ICON                    "ico00008.ico"
+#endif
+#endif
+#if defined(APSTUDIO_INVOKED) || defined(_WIN64)
+#if defined(APSTUDIO_INVOKED)
+IDI_ENABLED$(_WIN64)    ICON                    "ico00009.ico"
+#else
+IDI_ENABLED             ICON                    "ico00009.ico"
+#endif
+#endif
+#if defined(APSTUDIO_INVOKED) || defined(_WIN64)
+#if defined(APSTUDIO_INVOKED)
+IDI_DISABLED$(_WIN64)   ICON                    "disabled.ico"
+#else
+IDI_DISABLED            ICON                    "disabled.ico"
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MYHAND              CURSOR                  "arrow.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PAYPAL              BITMAP                  "x-click-but21 copy.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "allSnap.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+    END
+
+    168, DIALOG
+    BEGIN
+    END
+
+    169, DIALOG
+    BEGIN
+    END
+
+    211, DIALOG
+    BEGIN
+    END
+
+    IDD_DEBUG, DIALOG
+    BEGIN
+    END
+
+    "IDD_ABOUT_DEBUG", DIALOG
+    BEGIN
+    END
+
+    IDD_GRID, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "allSnap"
+    IDS_THRESHOLD_ERROR     "Please enter a number between 2 - 100"
+    IDS_SELF                "Snap to a window's old position."
+    IDS_OTHERS              "Snap to all other windows."
+    IDS_DESKTOP             "Snap to the edges of the screen(s)."
+    IDS_VCENTER             "Snap to the vertical center of the screen(s)."
+    IDS_HCENTER             "Snap to the horizontal center of the screen(s)."
+    IDS_ENABLED             "Enables window snapping."
+    IDS_PLAYSOUNDS          "Plays sounds when windows snap and unsnap.\n(May become annoying)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CROPTOP             "Used to fix XP styles in which the windows are taller than they appear."
+    IDC_SNAPIT              "allSnap"
+    IDS_HIDEICON            "Hides the system tray icon.\nRun allSnap.exe again to un-hide the icon."
+    IDS_KEPT                "Prevents windows from moving off the sides of the screen."
+    IDS_STRING132           "moving"
+    IDS_CROP_RGN            "Crops a window to its visible region before performing snapping"
+    IDS_AUTOLINEUP          "Automatically line up desktop icons. (not needed in XP)"
+    IDS_CHECK_HORIZONTAL    "snap to horizontal grid lines"
+    IDS_CHECK_VERTICAL      "snap to vertical grid lines"
+    IDS_H_NUM_EVEN          "use X evenly separated lines"
+    IDS_H_PIXELS_BTWN       "use horizontal grid with X pixels between lines"
+END
+
+STRINGTABLE
+BEGIN
+    Enabled                 "Enable window snapping"
+    IDS_ENABLED_TIP         "allSnap - Enabled"
+    IDS_DISABLED_TIP        "allSnap - Disabled"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_LINK                "http://members.rogers.com/ivanheckman/"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_PAYPAL              "https://www.paypal.com/xclick/business=ivanheckman%40hotmail.com&item_name=allSnap+software&amount=%245.00"
+    IDC_EMAIL               "mailto:ivanheckman@hotmail.com"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UNSNAP_FILE         " .wav file that is played when a window un-snaps."
+    IDS_BROWSE_UNSNAP       "Click to select a new .wav file for the un-snapping sound."
+    IDS_SNAP_FILE           " .wav file that is played when a window snaps."
+    IDS_BROWSE_SNAP         "Click to select a new .wav file for the snapping sound."
+    IDS_TOGGLEKEYS          "Lists keys you can use to temporarily disable window snapping."
+    IDS_SCREEN_THRESH       "Adjusts how close a window must be to the edge of the screen before it snaps."
+    IDS_WIN_THRESH          "Adjusts how close two windows must be before they snap."
+    IDS_SNAPTOL             "Choose what windows you can snap to."
+    IDS_GENERALL            "General settings"
+    IDS_SOUNDS              "Sound settings"
+    IDS_SNAPMDI             "Makes other applications' MDI windows snap."
+    IDS_QUIETFAST           "Don't play snap sounds when moving or sizing quickly across the screen."
+    IDS_INSIDES             "Don't snap windows to the inside edges of other windows."
+    IDS_INVTOGGLE           "Inverts the toggle key.\n(holding key enables snapping)"
+    IDS_ADVL                "Advanced settings"
+    IDS_PLAY                "Plays the selected sound."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DEBUG_MSG           "load snapping"
+    IDS_STRING501           "unload snapping"
+    IDS_STRING502           "outside corner found"
+    IDS_STRING503           "closer side disqualifies outside corner snap"
+    IDS_STRING504           "kept side - top/bottom"
+    IDS_STRING505           "kept side - left/right"
+    IDS_STRING506           "kept corner"
+    IDS_STRING507           "kept - nudged to keep top left corner inside."
+    IDS_STRING508           "moving"
+    IDS_STRING509           "sizing"
+    IDS_STRING134           "unsnapping position"
+    IDS_STRING511           "resizing"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING512           "unsnap side"
+    IDS_STRING513           "repositioning"
+    IDS_STRING514           "found a closer vertical side"
+    IDS_STRING515           "found a closer horizontal side"
+    IDS_STRING520           "INSIDECORNERREMOVED"
+    IDS_STRING521           "NONSIZINGSIDEREMOVED"
+    IDS_STRING530           "snap found"
+    IDS_STRING531           "SIZING_TOGGLEDOFF"
+    IDS_STRING532           "MOVING_TOGGLEDOFF"
+    IDS_STRING533           "OSSREJECTED"
+    IDS_STRING133           "cropping"
+    IDS_STRING517           "cropping top"
+    IDS_STRING518           "cropping hregion"
+    IDS_STRING519           "HRGEION TOP"
+    IDS_STRING522           "HREGION LEFT"
+    IDS_STRING523           "HREGION BOTTOM"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING524           "HREGION RIGHT"
+    IDS_STRING525           "Uncropping"
+    IDS_STRING526           "before constr."
+    IDS_STRING527           "after constr."
+    IDS_STRING528           "before uncrop"
+    IDS_STRING529           "after uncrop"
+    IDS_STRING135           "found clipping rgn"
+    IDS_STRING535           "adjusting result for rgn"
+    IDS_STRING136           "Load Sizing Crop Info..."
+END
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

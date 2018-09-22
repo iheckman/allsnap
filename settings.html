@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+	<HEAD>
+		<TITLE>allSnap - Settings</TITLE>
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<LINK rel="stylesheet" href="coua.css" type="text/css">
+	</HEAD>
+	<BODY>
+		<h2>Settings</h2>
+		<p>A property sheet provides a way to change the following settings.
+		</p>
+		<p><span class="note">(you can also right click on the property sheet itself to get 
+				help)</span></p>
+		<table cols="2" width="300">
+			<tr>
+				<th colspan="2">
+					Preferences/General:</th>
+			</tr>
+			<tr>
+				<td>Snap to windows at <b>x</b> pixels</td>
+				<td>Adjusts how close two windows must be before they snap</td>
+			</tr>
+			<tr>
+				<td>Snap to desktop at <b>x</b> pixels</td>
+				<td>Adjusts how close a window must be to the edge of the screen before it snaps.
+					<br>
+					<span class="note">also used for the&nbsp;center snap&nbsp;items <a href="#center_items">
+							described below</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Toggle key</td>
+				<td>Selects key to temporarily disable window snapping</td>
+			</tr>
+		</table>
+		<table cols="2" width="300">
+			<tr>
+				<th colspan="2">
+					Preferences/Snap to: <span class="note">Chooses which windows to snap to:</span></th>
+			</tr>
+			<tr>
+				<td>Desktop</td>
+				<td>Snap to the edges of the screen(s).</td>
+			</tr>
+			<tr>
+				<td>
+					Other Windows</td>
+				<td>Snap to all other windows.</td>
+			</tr>
+			<tr>
+				<td>
+					Old Position</td>
+				<td>Snap to a window's old position.<br>
+					<span class="note">makes more sense when 'Display Properties/Effects/show contents 
+						while dragging' is turned off </span>
+				</td>
+			</tr>
+			<tr>
+				<td><a name="center_items">Vertical center</a></td>
+				<td>Snap to the vertical center of the screen(s).</td>
+			</tr>
+			<tr>
+				<td>Horizontal center</td>
+				<td>Snap to the horizontal center of the screen(s).</td>
+			</tr>
+		</table>
+		<table width="300">
+			<tr>
+				<th colspan="2">
+					Sounds: <span class="note">Allows you to add sound effects to the snapping.</span></th>
+			</tr>
+			<tr>
+				<td>Snap sound file</td>
+				<td>
+					.wav file that is played when a window snaps.</td>
+			</tr>
+			<tr>
+				<td>Unsnap sound file</td>
+				<td>.wav file that is played when a window un-snaps.</td>
+			</tr>
+			<tr>
+				<td>Play Sounds</td>
+				<td>Turn on/off sound effects.<br>
+					<span class="note">sounds may become annoying so they are turned off by default </span>
+				</td>
+			</tr>
+		</table>
+		<table width="300">
+			<tr>
+				<th colspan="2">
+					Advanced:</th>
+			</tr>
+			<tr>
+				<td>Desktop icons 'Align to Grid'</td>
+				<td>Automatically line up desktop icons after moving them as in XP.&nbsp; (not 
+					needed in XP)</td>
+			</tr>
+			<tr>
+				<td>Snap MDI windows</td>
+				<td>Makes other applications' MDI windows snap.<br>
+					<span class="note">MDI windows are document windows that are contained within an 
+						application's main window.</span></td>
+			</tr>
+			<tr>
+				<td>Don't snap to inside edges</td>
+				<td>Diables windows from snapping to the inside edges of other windows.<br>
+					<span class="note">e.g. snapping the top of one window to the top of another window</span></td>
+			</tr>
+			<tr>
+				<td>Invert toggle key</td>
+				<td>Inverts the toggle key function.<br>
+					<span class="note">When selected, windows will not snap <i>unless</i> the toggle 
+						key is held down.</span></td>
+			</tr>
+			<tr>
+				<td>Hide icon</td>
+				<td>Hides the system tray icon. To show the icon again re-run allSnap.exe.</td>
+			</tr>
+			<tr>
+				<td>Crop top of windows by <b>x</b> pixels</td>
+				<td>Using allSnap with certain XP styles (e.g. Watercolor) will leave a thin space 
+					at the top of the windows. This option fixes this by making allSnap think all 
+					windows are <b>x</b> pixels shorter.<br>
+					<span class="note">This fix is not smart enough to detect which windows are using 
+						the problem style, so it is bound to make certain custom-skinned apps snap 
+						incorrectly.</span></td>
+			<tr>
+				<td>Constrain windows to the screen</td>
+				<td>Prevents windows from moving off the sides of the screen.
+				</td>
+			</tr>
+			<TR>
+				<TD>Ignore window clipping regions
+				</TD>
+				<TD>Some applications set a visible clipping region of a window.&nbsp; This option 
+					ignores this setting and snaps to the actual hidden widow size.</TD>
+			</TR>
+		</table>
+	</BODY>
+</HTML>

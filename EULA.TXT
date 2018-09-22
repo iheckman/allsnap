@@ -1,0 +1,28 @@
+allSnap License
+=================================
+
+Except where otherwise noted, all of the documentation and software included
+in allSnap is copyrighted by Ivan Heckman.
+
+Copyright (C) 2002-2004 Ivan Heckman. All rights reserved.
+
+USING THIS APPLICATION MAY POSSIBLY CAUSE OTHER RUNNING PROGRAMS TO CRASH
+
+This software is provided "as-is," without any express or implied warranty.
+In no event shall the author be held liable for any damages arising from the
+use of this software.  
+
+
+Permission is granted to anyone to use this software for any purpose, and to
+alter and redistribute it, provided that the following conditions are met:
+
+1. All redistributions in binary form must retain all occurrences of the above copyright notice and web site addresses that are currently in place (for example, in the About boxes).
+
+2. The origin of this software must not be misrepresented; you must not claim that you wrote the original software.
+
+3. Modified versions must be plainly marked as such (e.g. Resource edits, source code not available), and must not be misrepresented as being the original software.
+
+
+Ivan Heckman
+ivanheckman@hotmail.com
+http://members.rogers.com/ivanheckman
