@@ -1,6 +1,7 @@
 // snap_App.c : runs client to load and hook snap_lib.dll,
 //				provides a property sheet through the notify taskbar
 //				and unhooks the dll when closed.
+#pragma comment(lib, "comctl32.lib")
 #include "stdafx.h"
 
 #include <windowsx.h>
@@ -534,8 +535,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 		case WM_DESTROY:
-			//SaveSettingsToINI();
-			DeleteTaskbarIcon();
 			PostQuitMessage(0);
 			return 0;
 

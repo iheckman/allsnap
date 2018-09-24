@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "sides.h"
+#include "SIDES.H"
 #include <windows.h>
 
 TCHAR * g_side_names[]={

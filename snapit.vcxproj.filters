@@ -252,7 +252,4 @@
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="allSnap.exe.manifest" />
-  </ItemGroup>
 </Project>

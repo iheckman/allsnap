@@ -1,4 +1,6 @@
+
 #include "stdafx.h"
+#pragma comment(lib, "comctl32.lib")
 #include <windowsx.h>
 #include <Commctrl.h>
 #define SNAPLIBAPI __declspec(dllexport)

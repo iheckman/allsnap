@@ -210,3 +210,6 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+ALLSNAPB.VC.db
+snap_lib___Win32_Debug/
+Win32/

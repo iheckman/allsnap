@@ -42,9 +42,9 @@ BOOL isWholeSideOut_Sizing(enum SIDES side,TEST_INFO * p_test_info, LPRECT pScre
 	if (!isSideIn(pci,side)){
 
 		WinRects_getCurrentScreen(pScreen);
-
+		
 		return(  ( isVerticalSide(side)? (p_test_info->v_sizing_side == side):(p_test_info->h_sizing_side== side))
-			&& ( isLargerSide(side)?	(GetSideOfRect(side,pRect) > GetSideOfRect(side,pScreen))
+			&& ( isLargerSide(side)?	(GetSideOfRect(side,pRect) > GetSideOfRect(side,pScreen ))
 									:	(GetSideOfRect(side,pRect) < GetSideOfRect(side,pScreen))));
 	}
 	else{

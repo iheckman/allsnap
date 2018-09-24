@@ -422,7 +422,7 @@ IDB_PAYPAL              BITMAP                  "x-click-but21 copy.bmp"
 // RT_MANIFEST
 //
 
-1                       RT_MANIFEST             "allSnap.exe.manifest"
+//1                       RT_MANIFEST             "allSnap.exe.manifest"
 
 /////////////////////////////////////////////////////////////////////////////
 //

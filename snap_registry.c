@@ -2,7 +2,8 @@
 //Ivan Heckman (c) 2002
 //
 // handles saving/loading settings from the registry.
-#ifdef IH_USE_REGISTRY 
+#pragma once
+ 
 
 #include "stdafx.h"
 #include "snap_registry.h"
@@ -11,6 +12,8 @@
 #include "snap_taskbar.h"
 #include "snap_lineup.h"
 #include "snap_grid.h"
+
+#ifdef IH_USE_REGISTRY
 
 TCHAR szSubKey[]				= _T("Software\\IvanHeckman\\allSnap\\Settings");
 

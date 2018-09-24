@@ -163,6 +163,7 @@
     <OutDir>.\snap_lib___Win32_Debug\</OutDir>
     <IntDir>.\snap_lib___Win32_Debug\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(Platform)\$(Configuration)\</OutDir>
@@ -398,8 +399,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SNAP_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <PrecompiledHeader />
-      <PrecompiledHeaderOutputFile>.\snap_lib___Win32_Debug/snap_lib.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
       <AssemblerListingLocation>.\snap_lib___Win32_Debug/</AssemblerListingLocation>
       <ObjectFileName>.\snap_lib___Win32_Debug/</ObjectFileName>
       <ProgramDataBaseFileName>.\snap_lib___Win32_Debug/</ProgramDataBaseFileName>

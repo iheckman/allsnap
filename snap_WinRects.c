@@ -618,7 +618,7 @@ void WinRects_getCurrentScreen( RECT * pRect){
 	GetCursorPos(&pt);
 	hMonitor = MonitorFromPoint(pt,MONITOR_DEFAULTTONEAREST);
 	GetMonitorInfo(hMonitor,&mi);
-	*pRect = mi.rcWork;//???rcMonitor or rcWork
+	*pRect = mi.rcMonitor;//???rcMonitor or rcWork
 }
 
 void WinRects_getScreenFromPt(POINT pt, RECT * pRect){
